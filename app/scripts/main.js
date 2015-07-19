@@ -1,9 +1,8 @@
-var app = angular.module('app',
-    [
-        'ngRoute',
-        'ui.bootstrap',
-        'LocalForageModule'
-    ]);
+var app = angular.module('app', [
+    'ngRoute',
+    'ui.bootstrap',
+    'LocalForageModule'
+]);
 
 //routes
 app.config(function($routeProvider) {
