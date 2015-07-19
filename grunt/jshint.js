@@ -1,6 +1,6 @@
 module.exports = {
     options: {
-        "curly": true,
+        strict: true,
         "eqnull": true,
         "eqeqeq": true,
         "undef": false,
