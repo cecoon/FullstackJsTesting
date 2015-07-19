@@ -10,6 +10,9 @@ describe("Student", function () {
 
         var passesTest = student.doMathTest();
 
+        //let test fail for demonstration
+        //expect(passesTest).toBeTruthy();
+
         expect(passesTest).toBeFalsy();
     });
 

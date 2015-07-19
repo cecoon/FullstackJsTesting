@@ -17,5 +17,5 @@ module.exports = function(grunt) {
     grunt.registerTask('build_dev', ['jshint', 'clean', 'copyFiles',
         'compileLess', 'htmlbuild', 'clean:tmp', "test"]);
 
-    grunt.registerTask('dev', ['build_dev', 'connect', 'watch']);
+    grunt.registerTask('dev', ['build_dev', 'watch']);
 };
