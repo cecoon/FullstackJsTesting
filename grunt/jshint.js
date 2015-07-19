@@ -1,7 +1,7 @@
 module.exports = {
     options: {
-        strict: true,
-        "eqnull": true,
+        "strict": true,
+        "maxdepth": 3,
         "eqeqeq": true,
         "undef": false,
         "globals": {
