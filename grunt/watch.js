@@ -5,6 +5,6 @@ module.exports = {
     },
     config: {
         files: ["Gruntfile.js", "grunt/*.js"],
-        tasks: ["build_dev"]
+        tasks: ["dev"]
     }
 };
