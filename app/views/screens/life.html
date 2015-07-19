@@ -1,0 +1,20 @@
+<article id="life-screen">
+    <div ng-show="failed" class="alert alert-danger" role="alert">
+        YOU FAILED
+        <img src="images/joda.jpg">
+
+    </div>
+    <div ng-show="pass" class="alert alert-info" role="alert">
+        you did it!
+    </div>
+    <div class="jumbotron" ng-hide="pass" ng-hide="failed">
+        <p> your name: {{student.name}}</p>
+        <p> need to sleep: {{student.needOfSleep}}</p>
+        <p> need to procrastinate: {{student.needOfProcrastination}}</p>
+        <p> knowledge: {{student.knowledge}}</p>
+        <a class="btn bg-primary" ng-click="student.sleep();">sleep</a>
+        <a class="btn bg-primary" ng-click="student.watchCatVideo();">watch kitty clip</a>
+        <a class="btn bg-primary" ng-click="student.learn();">learn</a>
+        <a class="btn bg-primary" ng-click="doTest();">Do Math Test</a>
+    </div>
+</article>
