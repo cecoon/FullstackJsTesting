@@ -12,7 +12,6 @@ app.factory('Student', function() {
     }
 
     Student.prototype.sleep = function(){
-        console.log("hi");
         if(this.needOfSleep > 0){
             this.needOfSleep -= 10;
         }
